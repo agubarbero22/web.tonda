@@ -1,0 +1,173 @@
+.review-form-section {
+  padding: 5rem 2rem;
+  background: #1a1a1a;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.review-form-container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 3rem;
+  background-color: #2b2b2b;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  color: #f0f0f0;
+}
+
+.review-form-container h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.review-form-container p {
+  font-size: 1.1rem;
+  color: #a0a0a0;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+legend {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+/* Star Rating */
+.star-rating {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.star {
+  color: #555;
+  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.star.filled {
+  color: #ffc107;
+  transform: scale(1.1);
+}
+
+/* Radio Buttons */
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.radio-input {
+  display: none; /* Hide default radio */
+}
+
+.radio-custom {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #777;
+  border-radius: 50%;
+  margin-right: 0.8rem;
+  display: inline-block;
+  position: relative;
+  transition: border-color 0.3s;
+}
+
+.radio-input:checked + .radio-custom {
+  border-color: #ffc107;
+}
+
+.radio-input:checked + .radio-custom::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #ffc107;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Textarea */
+textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 1rem;
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 8px;
+  color: #f0f0f0;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+textarea::placeholder {
+  color: #888;
+}
+
+/* Button */
+button[type='submit'] {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button[type='submit']:hover {
+  background-color: #ffca2c;
+  transform: translateY(-2px);
+}
+
+button[type='submit']:disabled {
+  background-color: #555;
+  color: #888;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Messages */
+.error-message {
+  color: #ff4d4d;
+  text-align: center;
+  font-weight: 500;
+}
+
+.success-message {
+  text-align: center;
+}
+
+.success-message h3 {
+  font-size: 2rem;
+  color: #4caf50;
+  margin-bottom: 1rem;
+}
