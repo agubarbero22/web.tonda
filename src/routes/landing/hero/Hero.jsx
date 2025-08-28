@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -45,18 +44,12 @@ const Hero = () => {
         </motion.div>
 
         <div className="hero__interaction flex-container flex-row">
-          <Link
+          <a
             className="passive-button-style"
-            to="/blog"
-            aria-label="Lee nuestro blog">
-            Leer Blog
-          </Link>
-          <Link
-            className="passive-button-style  "
-            to="/menu"
-            aria-label="Ve nuestro menú">
-            Ver Menú
-          </Link>
+            href="#review-form"
+            aria-label="Dejar una reseña">
+            Dejar reseña
+          </a>
         </div>
       </div>
     </section>

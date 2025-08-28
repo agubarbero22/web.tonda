@@ -160,7 +160,7 @@ function App() {
             }
           />
 
-          <Route
+          {/* <Route
             exact
             path="/menu"
             element={
@@ -168,7 +168,7 @@ function App() {
                 <Menu />
               </ProductsProvider>
             }
-          />
+          /> */}
           <Route
             path="/profile"
             element={
@@ -194,10 +194,10 @@ function App() {
             element={<Payment currentUser={userConfig.user} />}
           />
 
-          <Route path="/contact" element={<Contact />} />
-          <Route exact path="/blog" element={<Blog />} />
+          {/* <Route path="/contact" element={<Contact />} /> */}
+          {/* <Route exact path="/blog" element={<Blog />} /> */}
           <Route path="/blog/:name" element={<BlogPost />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} /> */}
           <Route
             path="/register"
             element={
