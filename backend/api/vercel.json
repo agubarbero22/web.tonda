@@ -26,6 +26,10 @@
         {
             "src": "/(.*)",
             "dest": "index.mjs"
+        },
+        {
+            "src": "/submit-review",
+            "dest": "index.mjs"
         }
     ]
 }
