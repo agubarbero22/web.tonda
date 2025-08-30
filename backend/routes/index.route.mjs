@@ -11,9 +11,9 @@ indexRouter.get("/", (req, res) => {
 });
 
 // Resource routes
-indexRouter.use("users", usersRouter);
-indexRouter.use("verify-recaptcha", captchaRouter);
-indexRouter.use("shortener", shortenerRouter);
-indexRouter.use("reviews", reviewsRouter);
+indexRouter.use("/users", usersRouter);
+indexRouter.use("/verify-recaptcha", captchaRouter);
+indexRouter.use("/shortener", shortenerRouter);
+indexRouter.use("/reviews", reviewsRouter);
 
 export default indexRouter;

@@ -10,7 +10,7 @@
     "preview": "pnpm serve -s dist",
     "check-deps": "npm-check",
     "start-server": "node backend/api/index.mjs",
-    "dev-back": "node --env-file=backend/.env.backend backend/api/index.mjs"
+    "dev-back": "node --watch --env-file=backend/.env.backend backend/api/index.mjs"
   },
   "engines": {
     "node": ">=22.6.0 <23"
