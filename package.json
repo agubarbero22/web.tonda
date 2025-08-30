@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "pnpm serve -s dist",
     "check-deps": "npm-check",
-    "start-server": "node backend/api/index.mjs"
+    "start-server": "node backend/api/index.mjs",
+    "dev-back": "node --env-file=backend/.env.backend backend/api/index.mjs"
   },
   "engines": {
     "node": ">=22.6.0 <23"
@@ -34,6 +35,7 @@
     "react-paginate": "^8.3.0",
     "react-parallax-tilt": "^1.7.300",
     "react-router-dom": "^7.7.0",
+    "supabase": "^2.39.2",
     "uuid": "^11.1.0"
   },
   "devDependencies": {

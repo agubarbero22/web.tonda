@@ -12,6 +12,6 @@ const limiter = rateLimit({
 
 const reviewsRouter = Router();
 
-reviewsRouter.post("/", limiter, addReview);
+reviewsRouter.post("/", addReview);
 
 export default reviewsRouter;

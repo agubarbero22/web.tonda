@@ -1,12 +1,13 @@
+import dotenv from "dotenv";
+dotenv.config({ path: ".env.backend" });
+
 import express, { json } from "express";
 import cors from "cors";
-import dotenv from "dotenv";
 import indexRouter from "../routes/index.route.mjs";
 
 const app = express();
 app.set("trust proxy", 1); // for Vercel
-dotenv.config({ path: ".env.backend" });
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(json());
@@ -16,5 +17,4 @@ app.use("*", (req, res) => {
 });
 
 app.listen(port, () =>
-  console.log(`Server is running on http://localhost:${port}`)
-);
+    console.log("Server is running on http://localhost:${port}"));
