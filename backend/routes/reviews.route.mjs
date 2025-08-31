@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { addReview } from "../controllers/reviews.controller.mjs";
+import { addReview, getAllReviews } from "../controllers/reviews.controller.mjs";
 
 import rateLimit from "express-rate-limit";
 const limiter = rateLimit({
@@ -13,5 +13,6 @@ const limiter = rateLimit({
 const reviewsRouter = Router();
 
 reviewsRouter.post("/", addReview);
+reviewsRouter.get("/", getAllReviews);
 
 export default reviewsRouter;

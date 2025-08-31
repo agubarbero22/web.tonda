@@ -29,3 +29,20 @@ export const createReview = (review) => {
     }
   });
 };
+
+export const getReviews = () => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const { data, error } = await supabase
+        .from('reviews')
+        .select('*')
+        .order('created_at', { ascending: false });
+
+      if (error) throw error;
+
+      resolve(data);
+    } catch (err) {
+      reject(err);
+    }
+  });
+};

@@ -3,6 +3,7 @@ import usersRouter from "./users.route.mjs";
 import captchaRouter from "./captcha.route.mjs";
 import shortenerRouter from "./shortener.route.mjs";
 import reviewsRouter from "./reviews.route.mjs";
+import tokenRouter from "./token.route.mjs";
 
 const indexRouter = Router();
 
@@ -15,5 +16,6 @@ indexRouter.use("/users", usersRouter);
 indexRouter.use("/verify-recaptcha", captchaRouter);
 indexRouter.use("/shortener", shortenerRouter);
 indexRouter.use("/reviews", reviewsRouter);
+indexRouter.use("/verify-token", tokenRouter);
 
 export default indexRouter;

@@ -8,5 +8,6 @@ import Menu from "./menu/Menu";
 import Payment from "./payment/Payment";
 import Register from './registration/Register';
 import SingleItem from './single-item/SingleItem';
+import ReviewsPage from './admin/ReviewsPage';
 
-export { About, Blog, Cart, Checkout, Contact, Homepage, Menu, Payment, Register, SingleItem };
+export { About, Blog, Cart, Checkout, Contact, Homepage, Menu, Payment, Register, SingleItem, ReviewsPage };
