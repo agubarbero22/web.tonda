@@ -28,7 +28,7 @@
             "dest": "index.mjs"
         },
         {
-            "src": "/submit-review",
+            "src": "/reviews",
             "dest": "index.mjs"
         }
     ]
