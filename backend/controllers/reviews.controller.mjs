@@ -1,4 +1,4 @@
-import { createReview, getReviews } from '../services/reviews.service.mjs';
+import { createReview, getReviews, deleteAllReviews } from '../services/reviews.service.mjs';
 
 export const addReview = async (req, res) => {
   try {
@@ -39,5 +39,28 @@ export const getAllReviews = async (req, res) => {
   } catch (error) {
     console.error('Controller Error:', error);
     res.status(500).json({ error: 'Failed to fetch reviews' });
+  }
+};
+
+export const deleteAllReviewsController = async (req, res) => {
+  const authHeader = req.headers.authorization;
+  const secretToken = process.env.REVIEWS_VIEW_TOKEN;
+
+  if (!authHeader || !authHeader.startsWith('Bearer ')) {
+    return res.status(401).json({ message: 'Unauthorized' });
+  }
+
+  const token = authHeader.split(' ')[1];
+
+  if (token !== secretToken) {
+    return res.status(401).json({ message: 'Unauthorized' });
+  }
+
+  try {
+    await deleteAllReviews();
+    res.status(200).json({ success: true, message: 'All reviews deleted successfully' });
+  } catch (error) {
+    console.error('Controller Error:', error);
+    res.status(500).json({ error: 'Failed to delete reviews' });
   }
 };

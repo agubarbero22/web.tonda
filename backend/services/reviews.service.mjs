@@ -46,3 +46,20 @@ export const getReviews = () => {
     }
   });
 };
+
+export const deleteAllReviews = () => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const { error } = await supabase
+        .from('reviews')
+        .delete()
+        .neq('id', 0); // Delete all records (neq means "not equal")
+
+      if (error) throw error;
+
+      resolve({ success: true });
+    } catch (err) {
+      reject(err);
+    }
+  });
+};
