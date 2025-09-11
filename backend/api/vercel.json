@@ -32,6 +32,11 @@
             "dest": "index.mjs"
         },
         {
+            "src": "/reviews",
+            "dest": "index.mjs",
+            "methods": ["DELETE"]
+        },
+        {
             "src": "/(.*)",
             "dest": "index.mjs"
         }
