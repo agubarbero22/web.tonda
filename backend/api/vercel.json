@@ -20,15 +20,19 @@
             "dest": "index.mjs"
         },
         {
+            "src": "/verify-token",
+            "dest": "index.mjs"
+        },
+        {
             "src": "/shortener",
             "dest": "index.mjs"
         },
         {
-            "src": "/(.*)",
+            "src": "/reviews",
             "dest": "index.mjs"
         },
         {
-            "src": "/reviews",
+            "src": "/(.*)",
             "dest": "index.mjs"
         }
     ]
