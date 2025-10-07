@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './ReviewsPage.css';
-import {REVIEWS_TOKEN_URL} from "../../data/constants.js";
+import {REVIEWS_TOKEN_URL, REVIEWS_URL} from "../../data/constants.js";
 
 const ReviewsPage = () => {
   const [tokenInput, setTokenInput] = useState('');
