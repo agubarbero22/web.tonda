@@ -6,17 +6,16 @@ import cors from "cors";
 import indexRouter from "../routes/index.route.mjs";
 
 const app = express();
+const corsOptions = {
+  origin: ['web-tonda.vercel.app'],
+  methods: ["GET", "POST", "PUT", "PATCH"],
+  allowedHeaders: ['Content-Type', 'Authorization']
+};
+
 app.set("trust proxy", 1); // for Vercel
 
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(json());
-
-// Debug middleware
-app.use((req, res, next) => {
-  console.log(`${req.method} ${req.path} - Headers:`, req.headers);
-  next();
-});
-
 app.use("/", indexRouter);
 app.use("*", (req, res) => {
   console.log(`404 - Route not found: ${req.method} ${req.path}`);
