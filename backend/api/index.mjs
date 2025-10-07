@@ -7,7 +7,7 @@ import indexRouter from "../routes/index.route.mjs";
 
 const app = express();
 const corsOptions = {
-  origin: ['web-tonda-723t.vercel.app'],
+  origin: ['web-tonda.vercel.app', 'web-tonda-723t.vercel.app'],
   methods: ["GET", "POST", "PUT", "PATCH"],
   allowedHeaders: ['Content-Type', 'Authorization']
 };
