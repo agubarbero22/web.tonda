@@ -95,7 +95,7 @@ const ReviewsPage = () => {
   const deleteAllReviews = async () => {
     setIsLoading(true);
     try {
-      const response = await fetch('/api/reviews', {
+      const response = await fetch(REVIEWS_URL, {
         method: 'DELETE',
         headers: {
           Authorization: `Bearer ${tokenInput}`,
