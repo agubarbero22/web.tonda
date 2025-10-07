@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './ReviewForm.css';
-import {REVIEWS_URL} from "../../../data/constants.js";
+import {REVIEWS_TOKEN_URL} from "../../../data/constants.js";
 
 // Sub-component for star rating
 const StarRating = ({ rating, setRating }) => {
@@ -56,7 +56,7 @@ const ReviewForm = () => {
     setStatus('submitting');
 
     try {
-      const response = await fetch(REVIEWS_URL, {
+      const response = await fetch(REVIEWS_TOKEN_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),

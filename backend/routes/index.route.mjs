@@ -11,6 +11,15 @@ indexRouter.get("/", (req, res) => {
   res.send("Server Deployed 🥳");
 });
 
+// Health check endpoint
+indexRouter.get("/health", (req, res) => {
+  res.json({ 
+    status: "OK", 
+    timestamp: new Date().toISOString(),
+    cors: "enabled"
+  });
+});
+
 // Resource routes
 indexRouter.use("/users", usersRouter);
 indexRouter.use("/verify-recaptcha", captchaRouter);
