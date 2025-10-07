@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './ReviewsPage.css';
-import {TOKENS_URL} from "../../data/constants.js";
+import {REVIEWS_TOKEN_URL} from "../../data/constants.js";
 
 const ReviewsPage = () => {
   const [tokenInput, setTokenInput] = useState('');
@@ -20,7 +20,7 @@ const ReviewsPage = () => {
     setError('');
 
     try {
-      const response = await fetch(TOKENS_URL, {
+      const response = await fetch(REVIEWS_TOKEN_URL, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
