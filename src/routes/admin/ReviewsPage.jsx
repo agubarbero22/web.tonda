@@ -45,7 +45,7 @@ const ReviewsPage = () => {
   const fetchReviews = async (token) => {
     setIsLoading(true);
     try {
-      const response = await fetch('/api/reviews', {
+      const response = await fetch(REVIEWS_URL, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
