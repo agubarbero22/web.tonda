@@ -200,7 +200,12 @@ const ReviewsPage = () => {
         </div>
       </div>
 
-      {isLoading && <p className="loading-message">Cargando reseñas...</p>}
+      {isLoading && (
+        <div className="loading-container">
+          <div className="loading-spinner"></div>
+          <p className="loading-message">Cargando reseñas...</p>
+        </div>
+      )}
       {error && <p className="error-message">{error}</p>}
 
       <div className="reviews-list">
