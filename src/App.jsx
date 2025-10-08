@@ -142,7 +142,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
 
-          <Route
+          {/* Cart route disabled */}
+          {/* <Route
             path="/cart"
             element={
               <Cart
@@ -159,7 +160,7 @@ function App() {
                 }
               />
             }
-          />
+          /> */}
 
           {/* <Route
             exact
@@ -186,14 +187,15 @@ function App() {
             }
           />
           <Route path="/menu/:name" element={<SingleItem />} />
-          <Route
+          {/* Checkout and Payment routes disabled */}
+          {/* <Route
             path="/checkout"
             element={<Checkout currentUser={userConfig.user} />}
           />
           <Route
             path="/payment"
             element={<Payment currentUser={userConfig.user} />}
-          />
+          /> */}
 
           {/* <Route path="/contact" element={<Contact />} /> */}
           {/* <Route exact path="/blog" element={<Blog />} /> */}

@@ -87,7 +87,8 @@ const Header = ({
               </NavLink>
             </li>
           )}
-          <li>
+          {/* Login and Cart functionality disabled */}
+          {/* <li>
             <div className="login-and-cart">
               {isValidLogin ? (
                 <Link
@@ -121,7 +122,7 @@ const Header = ({
                 <p>({orderSummary.quantity})</p>
               </NavLink>
             </div>
-          </li>
+          </li> */}
         </ul>
         <button
           className="header__nav__hamburger"
