@@ -90,7 +90,7 @@ const ReviewForm = () => {
   return (
     <section id="review-form" className="review-form-section">
       <div className="review-form-container">
-        <h2>Na pizza é na cosa seria… tu opinión también.</h2>
+        <h2>Na pizza é na cosa seria… <br /> tu opinión también.</h2>
         <p>Tu opinión nos ayuda a mejorar y a seguir ofreciéndote la mejor pizza de la ciudad.</p>
         
         <form onSubmit={handleSubmit} noValidate>
