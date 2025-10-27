@@ -5,12 +5,12 @@
 }
 
 .review-form-container {
-  max-width: 750px;
+  max-width: 46.875rem;
   margin: 0 auto;
   padding: 3rem;
   background-color: #2b2b2b;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 0.9375rem;
+  box-shadow: 0 0.625rem 1.875rem rgba(0, 0, 0, 0.5);
   text-align: left;
   color: #f0f0f0;
 }
@@ -18,17 +18,22 @@
 .review-form-container h2 {
   font-size: 2.5rem;
   font-weight: 700;
+  font-family: var(--blacker-font);
   color: #ffffff;
   margin-bottom: 1rem;
   text-align: center;
+  letter-spacing: 0.0625rem;
 }
 
 .review-form-container p {
   font-size: 1.1rem;
+  font-family: var(--ausion-font);
+  font-weight: 300;
   color: #a0a0a0;
   line-height: 1.6;
   margin-bottom: 2.5rem;
   text-align: center;
+  letter-spacing: 0.01875rem;
 }
 
 form {
@@ -87,9 +92,9 @@ legend {
 }
 
 .radio-custom {
-  width: 20px;
-  height: 20px;
-  border: 2px solid #777;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 0.125rem solid #777;
   border-radius: 50%;
   margin-right: 0.8rem;
   display: inline-block;
@@ -103,8 +108,8 @@ legend {
 
 .radio-input:checked + .radio-custom::after {
   content: '';
-  width: 10px;
-  height: 10px;
+  width: 0.625rem;
+  height: 0.625rem;
   background-color: #ffc107;
   border-radius: 50%;
   position: absolute;
@@ -116,11 +121,11 @@ legend {
 /* Textarea */
 textarea {
   width: 100%;
-  min-height: 120px;
+  min-height: 7.5rem;
   padding: 1rem;
   background-color: #333;
-  border: 1px solid #555;
-  border-radius: 8px;
+  border: 0.0625rem solid #555;
+  border-radius: 0.5rem;
   color: #f0f0f0;
   font-size: 1rem;
   resize: vertical;
@@ -138,14 +143,14 @@ button[type='submit'] {
   color: #1a1a1a;
   background-color: #ffc107;
   border: none;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
 }
 
 button[type='submit']:hover {
   background-color: #ffca2c;
-  transform: translateY(-2px);
+  transform: translateY(-0.125rem);
 }
 
 button[type='submit']:disabled {

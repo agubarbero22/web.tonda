@@ -39,13 +39,13 @@ const Header = ({
           <img
             width="100"
             height="100"
-            className="logo"
+            className="logo logo-icon"
             src={logo}
-            alt=""
+            alt="TONDA Logo"
             aria-hidden="true"
           />
-          <h1 id="title" translate="no">
-            Pizza <span>Time</span>
+          <h1 id="title" translate="no" className="tonda-logo">
+            TONDA
           </h1>
         </NavLink>
         <ul

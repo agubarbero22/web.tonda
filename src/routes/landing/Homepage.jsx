@@ -14,7 +14,7 @@ const ContactLanding = lazy(() => import("./contact-info/ContactLanding"));
 
 const Homepage = () => {
   useEffect(() => {
-    document.title = "Pizza Time";
+    document.title = "TONDA";
     ResetLocation();
   }, []);
   return (

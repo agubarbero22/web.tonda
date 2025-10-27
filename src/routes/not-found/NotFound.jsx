@@ -5,7 +5,7 @@ import { slideInLeft } from "../../data/animations";
 
 const NotFound = () => {
   useEffect(() => {
-    document.title = "404 | Pizza Time";
+    document.title = "404 | TONDA";
   }, []);
   return (
     <motion.main

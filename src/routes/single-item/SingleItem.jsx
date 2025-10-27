@@ -36,7 +36,7 @@ const SingleItem = () => {
       )[0]
     );
     if (singleProduct) {
-      document.title = `${singleProduct.ItemName}| Pizza Time`;
+      document.title = `${singleProduct.ItemName}| TONDA`;
     }
   }, [singleProduct?.ItemName]);
 

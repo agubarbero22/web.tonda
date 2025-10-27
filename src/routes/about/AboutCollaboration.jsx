@@ -23,7 +23,7 @@ const AboutCollaboration = () => {
           estamos comprometidos a satisfacer las necesidades únicas de las empresas en nuestra área. Nuestro
           menú ofrece una amplia gama de opciones, desde pizzas y ensaladas clásicas hasta sándwiches y
           platos de pasta, para que puedas estar seguro de que hay algo para que todos disfruten. No olvides
-          que Pizza Time es un restaurante de pizza ficticio creado por Ekaterine Mitagvaria.
+          que TONDA es un restaurante de pizza ficticio creado por Ekaterine Mitagvaria.
         </p>
         <Link
           to="/contact"

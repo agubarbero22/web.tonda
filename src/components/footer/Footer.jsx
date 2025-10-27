@@ -1,5 +1,4 @@
 import FooterMenu from "./FooterMenu";
-import FooterContact from "./FooterContact";
 import FooterLegal from "./FooterLegal";
 import FooterSocials from "./FooterSocials";
 import "./footer.css";
@@ -13,8 +12,6 @@ const Footer = () => {
       </div>
       <hr aria-hidden="true" />
       <FooterLegal />
-      <hr aria-hidden="true" />
-      <FooterContact />
     </footer>
   );
 };

@@ -13,7 +13,7 @@ const AboutCareers = () => {
         <p>
           ¿Te apasiona la buena comida, el servicio al cliente excepcional y
           trabajar con un equipo divertido y dinámico? Si es así, ¡nos encantaría que te
-          unieras a nuestro equipo en Pizza Time! Siempre estamos buscando
+          unieras a nuestro equipo en TONDA! Siempre estamos buscando
           personas con talento y motivadas para que se unan a nuestro equipo en una variedad de
           puestos, desde camareros y chefs hasta personal de cocina y gerencia.
           Tanto si estás empezando en el sector de la restauración como si tienes años de

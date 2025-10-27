@@ -1,7 +1,34 @@
+@font-face {
+  font-family: 'Blacker Display';
+  src: url('../assets/Blacker-Display-Medium-trial.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ausion';
+  src: url('../assets/AusionPersonalUse-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rock and Cola Pro';
+  src: url('../assets/rock-and-cola-pro.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --poppins-font: "Poppins", sans-serif;
   --josefin-font: "Sansita Swashed", cursive;
   --nothing-font: "Nothing You Could Do", cursive;
+  --blacker-font: "Blacker Display", serif;
+  --ausion-font: "Ausion", serif;
+  --rock-font: "Rock and Cola Pro", serif;
   --white: #ffffff;
   --light-gray: #919191;
   --whitish-gray: #bfbfbf;
@@ -12,6 +39,7 @@
   --green: #1d9f55;
   --pizza-red: #ff6240;
   --pizza-red-light: #f87d62 0;
+  --tonda-burgundy: #8B3A3A;
   --transition: all ease-in-out 0.3s;
   --red: #ff0000;
   --modal-glass-bg: rgba(255, 255, 255, 0.15);

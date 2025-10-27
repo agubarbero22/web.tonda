@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { slideInLeft } from "../../data/animations";
 const Refunds = () => {
   useEffect(() => {
-    document.title = "Reembolsos | Pizza Time";
+    document.title = "Reembolsos | TONDA";
   }, []);
   return (
     <motion.main

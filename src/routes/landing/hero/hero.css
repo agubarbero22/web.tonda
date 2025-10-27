@@ -42,7 +42,7 @@
 }
 .hero__info span {
   color: var(--pizza-red);
-  font-family: var(--nothing-font);
+  font-family: var(--rock-font);
   font-size: 2rem;
 }
 
@@ -54,8 +54,24 @@
   font-display: swap;
 }
 
+.hero__subtitle {
+  font-family: var(--ausion-font);
+  font-size: clamp(1.5rem, 3vw, 2.2rem) !important;
+  letter-spacing: 0.125rem;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 1.4 !important;
+}
+
 .hero__info p {
   font-size: 1rem;
+}
+
+.hero__description {
+  font-family: var(--ausion-font);
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-weight: 300;
+  letter-spacing: 0.03rem;
 }
 
 .hero__interaction {

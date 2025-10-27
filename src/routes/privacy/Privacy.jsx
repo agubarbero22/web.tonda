@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { slideInLeft } from "../../data/animations";
 const Privacy = () => {
   useEffect(() => {
-    document.title = "Privacidad | Pizza Time";
+    document.title = "Privacidad | TONDA";
   }, []);
   return (
     <motion.main
@@ -15,7 +15,7 @@ const Privacy = () => {
       transition={slideInLeft.transition}>
       <h2>Privacidad</h2>
       <p>
-        Esta Política de Privacidad ("Política") describe cómo Pizza Time ("Pizza Time",
+        Esta Política de Privacidad ("Política") describe cómo TONDA ("TONDA",
         "nosotros", "nuestro" o "nos") recopila, utiliza y protege su información personal
         cuando utiliza nuestros servicios de crecimiento de Instagram. Al utilizar nuestros
         servicios, usted ("usted", "su" o "usuario") consiente las prácticas
@@ -31,8 +31,8 @@ const Privacy = () => {
       ))}
       <p>
         Si tiene alguna pregunta o inquietud con respecto a nuestra Política de Privacidad,
-        póngase en contacto con nosotros en info@pizzatime.com. Gracias por confiar en Pizza
-        Time su información personal.
+        póngase en contacto con nosotros en info@tonda.com. Gracias por confiar en TONDA
+        con su información personal.
       </p>
     </motion.main>
   );

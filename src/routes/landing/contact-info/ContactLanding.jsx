@@ -64,10 +64,10 @@ const ContactLanding = () => {
             <li>
               - Correo electrónico: {""}
               <a
-                href="mailto:support@pizzatime.com"
+                href="mailto:support@tonda.com"
                 target="_blank"
                 rel="noopener noreferrer">
-                support@pizzatime.com
+                support@tonda.com
               </a>
             </li>
             <li>
@@ -88,10 +88,10 @@ const ContactLanding = () => {
             <li>
               - Correo electrónico: {""}
               <a
-                href="mailto:info@pizzatime.com"
+                href="mailto:info@tonda.com"
                 target="_blank"
                 rel="noopener noreferrer">
-                info@pizzatime.com
+                info@tonda.com
               </a>
             </li>
           </ul>
@@ -105,10 +105,10 @@ const ContactLanding = () => {
             <li>
               - Correo electrónico: {""}
               <a
-                href="mailto:feedback@pizzatime.com"
+                href="mailto:feedback@tonda.com"
                 target="_blank"
                 rel="noopener noreferrer">
-                feedback@pizzatime.com
+                feedback@tonda.com
               </a>
             </li>
           </ul>

@@ -33,7 +33,7 @@ const Register = ({ activateLoginModal }) => {
 
   const captchaRef = useRef();
   useEffect(() => {
-    document.title = "Registration | Pizza Time";
+    document.title = "Registration | TONDA";
   }, []);
 
   const getUsers = async () => {

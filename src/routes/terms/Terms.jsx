@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { slideInLeft } from "../../data/animations";
 const Terms = () => {
   useEffect(() => {
-    document.title = "Términos | Pizza Time";
+    document.title = "Términos | TONDA";
   }, []);
   return (
     <motion.main
@@ -15,7 +15,7 @@ const Terms = () => {
       transition={slideInLeft.transition}>
       <h2>Términos y Condiciones</h2>
       <p>
-        Bienvenido a Pizza Time. Estos Términos de Servicio describen las reglas y
+        Bienvenido a TONDA. Estos Términos de Servicio describen las reglas y
         directrices para usar nuestro sitio web y nuestros servicios. Al acceder o utilizar nuestro
         sitio web, usted acepta cumplir con estos términos. Por favor, léalos atentamente
         antes de continuar.

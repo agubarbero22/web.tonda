@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { slideInLeft } from "../../data/animations";
 const Careers = () => {
   useEffect(() => {
-    document.title = "Carreras | Pizza Time";
+    document.title = "Carreras | TONDA";
   }, []);
   return (
     <motion.main

@@ -1,6 +1,6 @@
-# Pizza Time
+# TONDA
 
-![Pizza Time preview](https://github.com/catherineisonline/pizza-time-with-react/blob/main/src/assets/images/project-preview.png?raw=true)
+![TONDA preview](https://github.com/catherineisonline/pizza-time-with-react/blob/main/src/assets/images/project-preview.png?raw=true)
 
 I designed and built a full-stack food ordering platform for the gastronomy industry using React, Express.js, and Supabase (PostgreSQL).
 
@@ -10,7 +10,7 @@ I designed and built a full-stack food ordering platform for the gastronomy indu
 
 Live Version:
 
-[Pizza Time](https://pizza-time-with-react.vercel.app/)
+[TONDA](https://pizza-time-with-react.vercel.app/)
 
 - Dynamic UI: Features a fictional restaurant with pizzas, sushi, and pasta. Built with React Router, Icons, Carousels, and Framer Motion for smooth navigation and animations.
 

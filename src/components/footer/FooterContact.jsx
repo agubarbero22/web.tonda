@@ -15,9 +15,9 @@ const FooterContact = () => {
         </p>
         <p>
           <a
-            href="mailto:pizza@pizzatime.com"
-            aria-label="Email us at pizza at pizzatime dot com">
-            pizza@pizzatime.com
+            href="mailto:contacto@tonda.com"
+            aria-label="Email us at contacto at tonda dot com">
+            contacto@tonda.com
           </a>
         </p>
         <p>

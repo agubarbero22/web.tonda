@@ -10,8 +10,8 @@ const refunds = [
   {
     id: 2,
     title: "Refund Request Process",
-    content: `To request a refund, you must:
-        Contact our customer support team at support@pizzatime.com within 30 days of your purchase.
+        content: `To request a refund, you must:
+        Contact our customer support team at support@tonda.com within 30 days of your purchase.
         Provide details about the reason for your refund request and any relevant supporting documentation.
         Allow our team sufficient time to review your request and investigate the matter.
 `,
@@ -19,7 +19,7 @@ const refunds = [
   {
     id: 3,
     title: "Refund Decisions",
-    content: `Refund decisions will be made at the discretion of Pizza Time, taking into account the validity of the refund request and whether the refund eligibility criteria have been met. We reserve the right to approve or deny refund requests based on the circumstances of each case.`,
+        content: `Refund decisions will be made at the discretion of TONDA, taking into account the validity of the refund request and whether the refund eligibility criteria have been met. We reserve the right to approve or deny refund requests based on the circumstances of each case.`,
   },
   {
     id: 4,
@@ -42,8 +42,8 @@ const refunds = [
   {
     id: 7,
     title: "Contact Us",
-    content: `If you have any questions or concerns regarding this Refund Policy or our services, please contact us at support@pizzatime.com.
-        By using Pizza Time's services, you acknowledge that you have read, understood, and agree to this Refund Policy.`,
+    content: `If you have any questions or concerns regarding this Refund Policy or our services, please contact us at support@tonda.com.
+        By using TONDA's services, you acknowledge that you have read, understood, and agree to this Refund Policy.`,
   },
 ];
 

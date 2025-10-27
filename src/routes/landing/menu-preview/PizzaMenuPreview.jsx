@@ -14,7 +14,7 @@ const PizzaMenuPreview = () => {
           Pizzas Calientes
         </h2>
         <p className="section-description">
-          Pizza Time domina el mercado de la industria de la pizza y ofrece continuamente más que pizza. ¡Echa un vistazo a nuestras opciones de menú más populares con queso, carne, pollo y verduras!
+          TONDA domina el mercado de la industria de la pizza y ofrece continuamente más que pizza. ¡Echa un vistazo a nuestras opciones de menú más populares con queso, carne, pollo y verduras!
         </p>
       </div>
       <div className="menu-preview__meals flex-container flex-column">

@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section className="homepage__hero" aria-labelledby="hero-title">
       <h2 id="hero-title" className="visually-hidden">
-        ¡Bienvenido a Pizza Time!
+        ¡Bienvenido a TONDA!
       </h2>
       <video
         preload="auto"
@@ -38,8 +38,8 @@ const Hero = () => {
           transition={{ duration: 1 }}>
           <span>Bienvenido</span>
           <h2 className="txt-white">prueba algo increíble</h2>
-          <p className="txt-white">
-            Pedir tu pizza favorita es rápido y fácil con nuestra aplicación o en nuestro sitio web.
+          <p className="txt-white hero__description">
+          La mejor pizzería napoletana de Córdoba. Ingredientes importados de Italia. Masa fermentada 48 horas. Pizzas artesanales que rinden homenaje a la tradición napoletana.
           </p>
         </motion.div>
 

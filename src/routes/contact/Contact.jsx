@@ -21,7 +21,7 @@ const Contact = () => {
   const captchaRef = useRef();
   const validate = validateForm("contact");
   useEffect(() => {
-    document.title = "Contacto | Pizza Time";
+    document.title = "Contacto | TONDA";
   }, []);
   const handleSubmit = async (e) => {
     setLoading(true);

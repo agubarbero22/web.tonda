@@ -38,7 +38,7 @@ const Payment = () => {
   };
 
   useEffect(() => {
-    document.title = "Pago | Pizza Time";
+    document.title = "Pago | TONDA";
   }, []);
   return (
     <motion.main

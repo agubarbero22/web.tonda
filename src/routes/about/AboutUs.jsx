@@ -23,11 +23,11 @@ const AboutUs = () => {
           <li>🎈 ¡Excelentes opciones para fiestas corporativas!</li>
         </ul>
         <p>
-          ¡En Pizza Time siempre nos preocupamos por ti porque eres tú quien
+          ¡En TONDA siempre nos preocupamos por ti porque eres tú quien
           nos hace especiales!
         </p>
         <p>
-          El proyecto Pizza Time fue hecho con amor por la pizza por Ekaterine
+          El proyecto TONDA fue hecho con amor por la pizza por Ekaterine
           Mitagvaria.
         </p>
         <div className="about__company__glass"></div>

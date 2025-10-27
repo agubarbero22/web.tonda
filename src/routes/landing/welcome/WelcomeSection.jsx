@@ -40,10 +40,10 @@ const WelcomeSection = () => {
           height={499}
         />
         <h2 id="welcome-title" className="txt-white">
-          Bienvenido al restaurante <strong>Pizza Time</strong>
+          Bienvenido al restaurante <strong>TONDA</strong>
         </h2>
         <p>
-          ¡Fundada en 1982, llevamos la pizza rebanada por rebanada al siguiente nivel! Una marca única y estar en la industria de la pizza es la fórmula de nuestro éxito. Entendemos lo que la gente quiere y convertimos los deseos en experiencias de sabor únicas. La frescura, la originalidad y la calidad son solo una pequeña parte de nuestras prioridades. ¡Costos asequibles, ubicados en casi cualquier lugar al que vaya, un increíble sistema operativo en línea para pedir comida con un solo clic. Opciones de pre-pedido fáciles de navegar y opciones increíbles para fiestas corporativas! ¡En Pizza Time nos preocupamos por ti porque eres tú quien nos hace especiales!
+          ¡Fundada en 1982, llevamos la pizza rebanada por rebanada al siguiente nivel! Una marca única y estar en la industria de la pizza es la fórmula de nuestro éxito. Entendemos lo que la gente quiere y convertimos los deseos en experiencias de sabor únicas. La frescura, la originalidad y la calidad son solo una pequeña parte de nuestras prioridades. ¡Costos asequibles, ubicados en casi cualquier lugar al que vaya, un increíble sistema operativo en línea para pedir comida con un solo clic. Opciones de pre-pedido fáciles de navegar y opciones increíbles para fiestas corporativas! ¡En TONDA nos preocupamos por ti porque eres tú quien nos hace especiales!
         </p>
       </motion.div>
       <LazyLoadImage
@@ -51,7 +51,7 @@ const WelcomeSection = () => {
         src={img375}
         srcSet={`${img1440} 1440w, ${img700} 700w, ${img375} 375w`}
         sizes="(min-width: 1440px) 1440px, (min-width: 700px) 700px, 375px"
-        alt="Interior del restaurante Pizza Time con gente en la mesa y el personal sirviendo a los clientes"
+        alt="Interior del restaurante TONDA con gente en la mesa y el personal sirviendo a los clientes"
       />
     </section>
   );

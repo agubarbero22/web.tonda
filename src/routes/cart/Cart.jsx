@@ -8,7 +8,7 @@ import { slideInLeft } from "../../data/animations";
 const Cart = ({ CartItem }) => {
   const { cart } = useCart();
   useEffect(() => {
-    document.title = "Carrito de Compras | Pizza Time";
+    document.title = "Carrito de Compras | TONDA";
   }, []);
   return (
     <motion.main

@@ -17,7 +17,7 @@ const BlogPost = () => {
   }, [name]);
 
   useEffect(() => {
-    document.title = `${blogPost.name} | Pizza Time`;
+    document.title = `${blogPost.name} | TONDA`;
   }, [blogPost.name]);
   return (
     <motion.main

@@ -40,7 +40,7 @@ const Menu = () => {
     setpageCountProducts(Math.ceil(products.length / 5));
   }, [products, setEndOffset, endOffset, itemOffset]);
   useEffect(() => {
-    document.title = `${activeCategory} | Pizza Time`;
+    document.title = `${activeCategory} | TONDA`;
     getProductsByCategory(activeCategory);
     resetPagination();
     ResetLocation();

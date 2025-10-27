@@ -95,7 +95,7 @@ const Profile = ({ currentUser, handleLogout, updateUser }) => {
   };
 
   useEffect(() => {
-    document.title = "Perfil | Pizza Time";
+    document.title = "Perfil | TONDA";
   }, []);
   return (
     <motion.main

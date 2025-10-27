@@ -8,7 +8,7 @@ const OurServices = () => {
     <section className="homepage__services">
       <h2 className="pop-font">Nuestros Servicios</h2>
       <p className="pop-font section-description">
-        Pizza Time ofrece servicios en todos los estados: ¡usted elige entre una variedad de comidas y bebidas! Lo que nos hace especiales son nuestros equipos de profesionales con un amplio conocimiento de toda la cocina que tenemos para ofrecer.
+        TONDA ofrece servicios en todos los estados: ¡usted elige entre una variedad de comidas y bebidas! Lo que nos hace especiales son nuestros equipos de profesionales con un amplio conocimiento de toda la cocina que tenemos para ofrecer.
       </p>
       <ul className="services__items flex-container flex-column">
         {companyServices.map((service) => (

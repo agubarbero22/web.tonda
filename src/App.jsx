@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
 import {
   About,
   Blog,
@@ -219,8 +218,6 @@ function App() {
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/admin/reviews" element={<ReviewsPage />} />
         </Routes>
-
-        <Footer />
       </BrowserRouter>
     </CartProvider>
   );
