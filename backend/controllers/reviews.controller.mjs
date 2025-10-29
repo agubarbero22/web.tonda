@@ -6,6 +6,7 @@ export const addReview = async (req, res) => {
 
     // Validation
     if (!rating || !enjoyed_most || !would_recommend) {
+      console.error('Validation failed:', { rating, enjoyed_most, would_recommend });
       return res.status(400).json({ error: 'Missing required fields' });
     }
 
@@ -15,7 +16,16 @@ export const addReview = async (req, res) => {
     res.status(201).json({ success: true, reviewId: id });
   } catch (error) {
     console.error('Controller Error:', error);
-    res.status(500).json({ error: 'Failed to submit review' });
+    console.error('Error details:', {
+      message: error?.message,
+      code: error?.code,
+      details: error?.details,
+      hint: error?.hint
+    });
+    res.status(500).json({ 
+      error: 'Failed to submit review',
+      details: process.env.NODE_ENV === 'development' ? error.message : undefined
+    });
   }
 };
 

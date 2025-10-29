@@ -14,6 +14,8 @@ const corsOptions = {
     const allowedOrigins = [
       'https://web-tonda.vercel.app',
       'https://web-tonda-723t.vercel.app',
+      'https://www.tondanapoletana.com.ar',
+      'https://tondanapoletana.com.ar',
       'http://localhost:3000',
       'http://localhost:5173'
     ];
@@ -47,6 +49,8 @@ app.use((req, res, next) => {
 const allowedOrigins = [
   'https://web-tonda.vercel.app',
   'https://web-tonda-723t.vercel.app',
+  'https://www.tondanapoletana.com.ar',
+  'https://tondanapoletana.com.ar',
   'http://localhost:3000',
   'http://localhost:5173'
 ];
