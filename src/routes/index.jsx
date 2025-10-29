@@ -9,5 +9,6 @@ import Payment from "./payment/Payment";
 import Register from './registration/Register';
 import SingleItem from './single-item/SingleItem';
 import ReviewsPage from './admin/ReviewsPage';
+import ReviewForm from './landing/review-form/ReviewForm';
 
-export { About, Blog, Cart, Checkout, Contact, Homepage, Menu, Payment, Register, SingleItem, ReviewsPage };
+export { About, Blog, Cart, Checkout, Contact, Homepage, Menu, Payment, Register, SingleItem, ReviewsPage, ReviewForm };

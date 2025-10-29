@@ -13,6 +13,7 @@ import {
   Register,
   SingleItem,
   ReviewsPage,
+  ReviewForm,
 } from "./routes/index";
 
 import CartTotals from "./routes/cart/CartTotals";
@@ -216,7 +217,8 @@ function App() {
           <Route path="/refunds" element={<Refunds />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/privacy" element={<Privacy />} />
-          <Route path="/admin/reviews" element={<ReviewsPage />} />
+          <Route path="/encuesta" element={<ReviewForm />} />
+          <Route path="/admin/encuestas" element={<ReviewsPage />} />
         </Routes>
       </BrowserRouter>
     </CartProvider>
