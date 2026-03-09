@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "pnpm serve -s dist",
     "check-deps": "npm-check",
-    "start-server": "node backend/api/index.mjs",
+    "start-server": "node --env-file=.env.backend backend/api/index.mjs",
     "dev-back": "node --watch --env-file=backend/.env.backend backend/api/index.mjs"
   },
   "engines": {
@@ -25,6 +25,7 @@
     "framer-motion": "^12.23.6",
     "leaflet": "^1.9.4",
     "node-fetch": "^3.3.2",
+    "pg": "^8.20.0",
     "react": "^19.1.0",
     "react-alice-carousel": "^2.9.1",
     "react-dom": "^19.1.0",
